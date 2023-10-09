@@ -2,6 +2,8 @@
 An Outer Wilds mod that adds silly filters/overlays to scout images.
 Spice up your wild ventures!
 
+![Thumbnail for the mod.](Images/thumbnail.png)
+
 ## How to use
 You can select which filter to use in the mod's settings. By default, the filter is set to `none` (no filter is applied).
 Select a filter. Now you can take a picture with any scout!
@@ -44,6 +46,13 @@ Projects used and referenced:
 - [Outer Pictures](https://github.com/Pau318/OuterPictures) license: [MIT](https://github.com/Pau318/OuterPictures/blob/d45bb855cdb11c8f6a9ab834b16c89e634021f52/LICENSE)
 - [Treating a 1D data structure as 2D grid answer on stack exchange](https://softwareengineering.stackexchange.com/a/212813) license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [Alpha Compositing](https://en.wikipedia.org/wiki/Alpha_compositing) algorithm provided by Wikipedia.
+
+
+Extra help:
+- Thanks to [xen-42](https://github.com/xen-42) for conflicts key/pair in `manifest.json`.
+
+## Links
+- Github Repo: [MoonstoneStudios/SillyFilters](https://github.com/MoonstoneStudios/SillyFilters)
 
 ## License
 See also [LICENSE.md](LICENSE.md)
