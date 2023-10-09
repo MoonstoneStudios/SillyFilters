@@ -15,7 +15,7 @@ permissions:
 
 env:
   PROJ_USERNAME: MoonstoneStudios
-  PROJ_NAME: SillyFilteres
+  PROJ_NAME: SillyFilters
 
 jobs:
   pre_job:
