@@ -2,7 +2,7 @@
 An Outer Wilds mod that adds silly filters/overlays to scout images.
 Spice up your wild ventures!
 
-![Thumbnail for the mod.](Images/thumbnail.png)
+![Thumbnail for the mod.](https://github.com/MoonstoneStudios/SillyFilters/blob/main/Images/thumbnail.png)
 
 ## How to use
 You can select which filter to use in the mod's settings. By default, the filter is set to `none` (no filter is applied).
@@ -27,15 +27,7 @@ This mod is **NOT** compatable with:
 Use Outer Pictures to download and save the scout photos (see examples below). Color photos can be taken with the Color Cameras Mod (also see below).
 
 ## Examples
-
-<!--https://gist.github.com/DavidWells/7d2e0e1bc78f4ac59a123ddf8b74932d?permalink_comment_id=4536101#gistcomment-4536101-->
-<p>
-<img width="336" src="Images/picture1.png" alt="Example of the 'postcard' filter.">
-<img width="336" src="Images/picture2.png" alt="Example of the 'rainbow' filter.">
-<img width="336" src="Images/picture3.png" alt="Example of the 'postcard' filter with a colored scout image made using the Color Cameras mod.">
-<img width="336" src="Images/picture4.png" alt="Example of the 'so cute' filter.">
-</p>
-
+![A collection of examples images.](https://github.com/MoonstoneStudios/SillyFilters/blob/main/Images/example%20images.png)
 
 ## Credit
 Created by [MoonstoneStudios](https://github.com/MoonstoneStudios). 
@@ -55,7 +47,7 @@ Extra help:
 - Github Repo: [MoonstoneStudios/SillyFilters](https://github.com/MoonstoneStudios/SillyFilters)
 
 ## License
-See also [LICENSE.md](LICENSE.md)
+See also [LICENSE.md](https://github.com/MoonstoneStudios/SillyFilters/blob/a5a23ddc7d0d9852c348045edbbc974e66b9f5e0/LICENSE.md)
 
 ```
 MIT License
