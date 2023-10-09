@@ -42,9 +42,12 @@ Projects used and referenced:
 
 Extra help:
 - Thanks to [xen-42](https://github.com/xen-42) for conflicts key/pair in `manifest.json`.
+- Thanks to [dgarroDC](https://github.com/dgarroDC) for see below.
+- The two people above helped fix the mod page (relative image links in HTML READMEs throw exceptions on website build).
 
 ## Links
 - Github Repo: [MoonstoneStudios/SillyFilters](https://github.com/MoonstoneStudios/SillyFilters)
+- Mod Page: [mods/sillyfilters](https://outerwildsmods.com/mods/sillyfilters/)
 
 ## License
 See also [LICENSE.md](https://github.com/MoonstoneStudios/SillyFilters/blob/a5a23ddc7d0d9852c348045edbbc974e66b9f5e0/LICENSE.md)
