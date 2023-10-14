@@ -14,22 +14,32 @@ namespace SillyFilters
     {
         private static SillyFilters ModInstance => SillyFilters.instance;
 
+        private static Texture2D currentOverlayTexture;
+        private static string currentFilterName;
+
         /// <summary>Override what is returned by the launcher.</summary>
         /// <param name="__result">The image that the probe produces.</param>
         [HarmonyPostfix]
         [HarmonyPatch(typeof(ProbeCamera), nameof(ProbeCamera.TakeSnapshot))]
         public static void ProbeCamera_TakeSnapshot_Postfix(ref RenderTexture __result)
         {
-            // don't change anything
-            if (ModInstance.imageFileName == "none.png") return;
+            var newFilterName = ModInstance.imageFileName;
 
-            // image loading credit
-            // https://github.com/Pau318/OuterPictures
-            var overlay = ModInstance.ModHelper.Assets.GetTexture("Assets\\" + SillyFilters.instance.imageFileName);
+            // don't change anything
+            if (newFilterName == "none.png") return;
+
+            if (newFilterName != currentFilterName)
+            {
+                // image loading credit
+                // https://github.com/Pau318/OuterPictures
+                currentOverlayTexture = ModInstance.ModHelper.Assets.GetTexture("Assets\\" + newFilterName);
+                currentFilterName = newFilterName;
+            }
+
             var result2d = __result.ToTexture2D();
 
             var basePixels = result2d.GetPixels();
-            var overlayPixels = overlay.GetPixels();
+            var overlayPixels = currentOverlayTexture.GetPixels();
 
             // add filter to the probe image.
             var newImage = CombineImages(basePixels, overlayPixels);
